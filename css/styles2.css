@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  /* width: 250px; */
+  width: 20%;
+  /* border: 1px dotted gray; */
+  position: fixed;
+  height: 100%;
+  top: 0px;
+  left: 0;
+  overflow: hidden;
+  background-color: #1fefd3;
+  padding-left: 20px;
+}
+.left-nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.left-nav a:hover {
+  background-color: #a32824;
+  color: white;
+}
+
+.details {
+  float: right;
+  /* width: 1200px; */
+  width: 80%;
+  /* border: 1px dotted gray; */
+  /* margin-left: 300px; */
+  /* margin-top: 300px; */
+  padding: 15px;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  clear: both;
+  height: 100px;
+  /* border-top: 1px dotted gray; */
+  /* border-bottom: 1px dotted gray; */
+  margin-top: 30px;
+  text-align: center;
+  background-color: honeydew;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .details {
+    width: 100%;
+  }
+}
